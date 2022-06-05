@@ -1,0 +1,71 @@
+
+body{
+	 
+	  background-color: #B0E0E6;
+	 
+	  background-position: center;
+
+	
+}
+.text{
+	 width: 80%;
+	 font-size: 20px;
+	 
+	 margin: auto;
+	 font-family: 'Cormorant Garamond', serif;
+}
+/*https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstletter*/
+p::first-letter {
+  font-size: 50px;
+  color: #8A2BE2;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1{
+	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+  text-align: center;
+	margin: auto;
+	font-size: 80px;
+}
+
+
+.p_container {
+  margin: 0px;
+  clear:both;
+}
+.left
+{
+	float: left;
+	text-align: center;
+}
+.right
+{
+	float: right;
+	text-align: center;
+}
+	
+
+img{
+	width:200px;
+	
+}
+a:link {
+			  color: red;
+			}
+
+
+		a:visited {
+			  color:  #C71585;
+			}
+
+
+		a:hover {
+			  color: #000080;
+        
+			}
+
+
+		a:active {
+			  color: #B8860B;
+			}
